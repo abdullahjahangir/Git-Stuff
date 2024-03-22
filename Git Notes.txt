@@ -4,6 +4,8 @@
 4- git status
 5- git add .
 6- git commit -m"Initial Commit"
-7- git checkout index.html or -f
+7- git checkout index.html or -f (Move to previous commit when not staged)
 8- git log
-8- git diff
+9- git diff (Compare Working Area with Staging Area)
+10- git diff --staged (Compare Staging Area with Last Commit)
+11- git rm --cached waste.html
