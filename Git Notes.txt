@@ -9,7 +9,9 @@ git branch
 git branch feature
 git checkout -b feature
 git branch -m old_name new-name
-
+git merge feature  (If i am on main)
+git remote add origin URL
+git push -u origin main
 
 
 ~~~ Undo Stuff
