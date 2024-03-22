@@ -4,3 +4,6 @@
 4- git status
 5- git add .
 6- git commit -m"Initial Commit"
+7- git checkout index.html or -f
+8- git log
+8- git diff
