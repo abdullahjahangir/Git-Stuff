@@ -8,4 +8,4 @@
 8- git log
 9- git diff (Compare Working Area with Staging Area)
 10- git diff --staged (Compare Staging Area with Last Commit)
-11- git rm --cached waste.html
+11- git rm -f|--cached waste.html (Remove from Staging Area or delete)
