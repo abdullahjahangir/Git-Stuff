@@ -1,3 +1,17 @@
+git config --global user.name "abdullahjahangir"
+git config --global user.email "abdullahalijahangir1234@gmail.com"
+git init
+git status
+git add . (Add all files to staging area)
+git commit -m"Initial Commit"
+git log -p -1
+git branch
+git branch feature
+git checkout -b feature
+git branch -m old_name new-name
+
+
+
 ~~~ Undo Stuff
 # Undo Working Area and Move to previous commit
 git checkout index.html or -f
@@ -17,18 +31,6 @@ git diff
 # Compare Staging Area with Last Commit
 git diff --staged 
 
-
 # Remove from Staging Area or delete
 git rm -f|--cached waste.html
 
-
-
-
-git config --global user.name "abdullahjahangir"
-git config --global user.email "abdullahalijahangir1234@gmail.com"
-git init
-git status
-git add . (Add all files to staging area)
-git commit -m"Initial Commit"
-
-8- git log -p -1
